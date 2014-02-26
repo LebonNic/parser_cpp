@@ -8,6 +8,7 @@ private:
 	std::string m_MethodName;
 
 public:
+	Method(const std::string & returnType, const std::string & methodName);
 	Method(void);
 	~Method(void);
 
