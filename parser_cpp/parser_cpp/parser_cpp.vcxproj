@@ -78,9 +78,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="HeaderParser.h" />
     <ClInclude Include="Method.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HeaderParser.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Method.cpp" />
     <ClInclude Include="MethodsDatabase.h" />
   </ItemGroup>
