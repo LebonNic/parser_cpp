@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-Wall -ansi -pedantic -Wextra -std=0x
+CFLAGS=-Wall -ansi -pedantic -Wextra -std=c++0x
 LDFLAGS=
 DFLAGS=-O3
 EXEC=main
