@@ -57,7 +57,7 @@ std::string MethodsDatabase::toString() const
 	for(std::list<Method *>::const_iterator ite = m_Methods.begin(); ite != m_Methods.end(); ++ite)
 	{
 		ss	<< "Return type : " << (*ite)->getReturnType() << std::endl
-			<< "Prototype : " << (*ite)->getMethodName() << std::endl << std::endl;
+			<< "Method's name : " << (*ite)->getMethodName() << std::endl << std::endl;
 	}
 	return ss.str();
 }

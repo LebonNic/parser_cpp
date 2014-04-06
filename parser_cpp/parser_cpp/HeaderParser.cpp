@@ -24,7 +24,6 @@ void HeaderParser::load(const std::string &fileName)
 	std::ifstream filestream(fileName.c_str());
 	std::string line,
 				word;
-	bool parsingSuccess = true;
 
 	/*
      LE SAINT GRALL !
@@ -40,7 +39,7 @@ void HeaderParser::load(const std::string &fileName)
 
     if (filestream.is_open())
     {
-		while(parsingSuccess && std::getline(filestream, line))
+		while(std::getline(filestream, line))
 		{
 			 if(std::regex_search (line,match,exp)) 
 			 {
