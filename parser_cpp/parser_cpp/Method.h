@@ -1,6 +1,17 @@
-#pragma once
+/**
+ * @file Method.h
+ * @brief Déclaration de la classe Method
+ * @author Antoine Colmard
+ * @author Nicolas Prugne
+ */
+#ifndef METHOD_H
+#define METHOD_H
+
 #include <string>
 
+/**
+ * @brief Classe chargée de définir le format d'une méthode stockée dans un objet de type MethodsDatabase
+ */
 class Method
 {
 private:
@@ -19,3 +30,4 @@ public:
 	const std::string & getMethodName(void) const;
 };
 
+#endif
